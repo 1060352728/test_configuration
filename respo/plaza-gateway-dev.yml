@@ -1,8 +1,5 @@
 name: likui
 zuul:
-  host:
-    connect-timeout-millis: 10000
-    socket-timeout-millis: 60000
   routes:
     api-uac:
       path: /api-uac/**
