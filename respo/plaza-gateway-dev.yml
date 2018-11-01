@@ -1,4 +1,4 @@
-name: likui24
+name: likui25
 zuul:
   host:
     socket-timeout-millis: 60000
