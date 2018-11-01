@@ -1,4 +1,4 @@
-name: likui26
+name: likui25
 zuul:
   routes:
     api-uac:
