@@ -1,10 +1,4 @@
-name: likui24
-spring:
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+name: likui22
 # zuul:
 #   routes:
 #     api-uac:
