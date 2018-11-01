@@ -13,7 +13,7 @@ zuul:
       path: /api-omc/**
       service-id: plaza-provider-omc
     api-psc:
-      path: /api-psc/**
+      path: /api-psc1/**
       service-id: plaza-provider-psc
       sensitive-headers:
 #     ignored-patterns:
