@@ -1,4 +1,4 @@
-name: likui2
+name: likui8
 spring:
   rabbitmq:
     host: localhost
