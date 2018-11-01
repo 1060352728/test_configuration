@@ -16,5 +16,5 @@ zuul:
       path: /api-psc/**
       service-id: plaza-provider-psc
       sensitive-headers:
-    ignored-patterns:
-      - /**/product/listForOrder
+#     ignored-patterns:
+#       - /**/product/listForOrder
