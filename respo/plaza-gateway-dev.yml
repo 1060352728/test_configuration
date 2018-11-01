@@ -1,4 +1,8 @@
 name: likui25
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
 zuul:
   sensitive-headers:   #全局都可以传递cookie
   host:
