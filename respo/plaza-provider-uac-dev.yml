@@ -3,3 +3,11 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/plaza-uac
     username: root
     password: root
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  redis:
+    host: 127.0.0.1
+    port: 6379
