@@ -1,15 +1,15 @@
-name: likui2
-zuul:
-  routes:
-    api-uac:
-      path: /api-uac/**
-      service-id: plaza-provider-uac
-    api-omc:
-      path: /api-omc/**
-      service-id: plaza-provider-omc
-    api-psc:
-      path: /api-psc/**
-      service-id: plaza-provider-psc
-      sensitive-headers:
-    ignored-patterns:
-      - /**/product/listForOrder
+name: likui3
+# zuul:
+#   routes:
+#     api-uac:
+#       path: /api-uac/**
+#       service-id: plaza-provider-uac
+#     api-omc:
+#       path: /api-omc/**
+#       service-id: plaza-provider-omc
+#     api-psc:
+#       path: /api-psc/**
+#       service-id: plaza-provider-psc
+#       sensitive-headers:
+#     ignored-patterns:
+#       - /**/product/listForOrder
