@@ -11,6 +11,11 @@ zuul:
   proxy:
     addProxyHeaders: true
   routes:
+    api-oauth:
+      path: /uaa/**
+      strip-prefix: true
+      sensitiveHeaders:
+      serviceId: auth2.0-center
     api-uac:
       path: /api-uac/**
       service-id: plaza-provider-uac
