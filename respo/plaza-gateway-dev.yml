@@ -15,7 +15,7 @@ zuul:
       path: /uaa/**
       strip-prefix: true
       sensitiveHeaders:
-      serviceId: plaza-oauth
+      service-id: plaza-oauth
     api-uac:
       path: /api-uac/**
       service-id: plaza-provider-uac
