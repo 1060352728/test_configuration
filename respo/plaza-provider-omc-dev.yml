@@ -1,5 +1,5 @@
 name: zhangsan
-age: 24
+age: 25
 version: dev
 spring:
   datasource:
