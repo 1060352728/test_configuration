@@ -4,7 +4,7 @@ spring:
     host: 127.0.0.1
     port: 6379
 zuul:
-  sensitive-headers: Cookie,Set-Cookie,Authorization  #全局都可以传递cookie
+  sensitive-headers: Authorization  #全局都可以传递cookie
   host:
     socket-timeout-millis: 60000
     connect-timeout-millis: 30000
